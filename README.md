@@ -61,4 +61,4 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboos
 ## 👥 Contribuyentes
 - Joseph Roldán
 - Duban Zuluaga
-- Juan Esteban Cardozo
+- Carlos Zuluaga
