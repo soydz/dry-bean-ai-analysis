@@ -61,7 +61,7 @@ Sistema de clasificación automática de 7 variedades de frijol seco (Dermason, 
 ### Pasos
 ```bash
 # Clonar el repositorio
-git clone https://github.com/Josephroldanr/dry-bean-ml-udea
+git clone https://github.com/soydz/dry-bean-ai-analysis
 cd dry-bean-classification
 
 # Crear entorno virtual (opcional pero recomendado)
