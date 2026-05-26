@@ -1,0 +1,22 @@
+model,balancing,cv_f1_macro_mean,cv_f1_macro_std,test_accuracy,test_f1_macro,test_f1_weighted,test_precision_macro,test_recall_macro,best_params,time_seconds
+LightGBM,None,0.9415,0.0029,0.9195,0.9308,0.9196,0.9316,0.9301,"{'clf__n_estimators': 200, 'clf__max_depth': 20, 'clf__learning_rate': 0.1}",62.7
+LightGBM,SMOTE,0.9402,0.0046,0.9206,0.9318,0.9208,0.9319,0.9317,"{'clf__n_estimators': 100, 'clf__max_depth': -1, 'clf__learning_rate': 0.05}",77.5
+LightGBM,SMOTE-ENN,0.9379,0.005,0.9177,0.9311,0.918,0.9307,0.932,"{'clf__n_estimators': 200, 'clf__max_depth': 20, 'clf__learning_rate': 0.1}",84.3
+LogReg,None,0.9368,0.0039,0.9206,0.931,0.9208,0.9324,0.9299,{'clf__C': 10},6.7
+LogReg,SMOTE,0.9347,0.0054,0.9144,0.9275,0.9146,0.9268,0.9289,{'clf__C': 10},12.5
+LogReg,SMOTE-ENN,0.9319,0.0071,0.9125,0.9263,0.9128,0.926,0.9275,{'clf__C': 10},35.5
+MLP,None,0.9377,0.0043,0.9225,0.9331,0.9226,0.9334,0.9329,"{'clf__hidden_layer_sizes': (100,), 'clf__alpha': 0.01}",18.5
+MLP,SMOTE,0.9392,0.004,0.9228,0.9336,0.923,0.9325,0.9351,"{'clf__hidden_layer_sizes': (50,), 'clf__alpha': 0.001}",48.0
+MLP,SMOTE-ENN,0.934,0.0078,0.9158,0.9278,0.9161,0.9264,0.93,"{'clf__hidden_layer_sizes': (100,), 'clf__alpha': 0.01}",60.8
+RandomForest,None,0.9349,0.002,0.9184,0.9294,0.9183,0.9305,0.9285,{'clf__max_depth': 20},24.8
+RandomForest,SMOTE,0.9353,0.0004,0.9177,0.9293,0.9178,0.9296,0.929,{'clf__max_depth': 20},45.5
+RandomForest,SMOTE-ENN,0.9312,0.0016,0.9144,0.9277,0.9145,0.9276,0.9282,{'clf__max_depth': 20},41.1
+SVM,None,0.943,0.0043,0.9254,0.9358,0.9254,0.9366,0.9351,"{'clf__kernel': 'rbf', 'clf__gamma': 0.1, 'clf__C': 10}",10.3
+SVM,SMOTE,0.9415,0.0047,0.9243,0.9353,0.9244,0.9349,0.936,"{'clf__kernel': 'rbf', 'clf__gamma': 0.1, 'clf__C': 1}",17.9
+SVM,SMOTE-ENN,0.9394,0.0051,0.9181,0.9305,0.9182,0.9296,0.9321,"{'clf__kernel': 'rbf', 'clf__gamma': 0.1, 'clf__C': 1}",27.7
+XGBoost,None,0.9417,0.005,0.9188,0.9305,0.9188,0.9322,0.929,"{'clf__n_estimators': 200, 'clf__max_depth': 3, 'clf__learning_rate': 0.1}",30.4
+XGBoost,SMOTE,0.9409,0.005,0.9188,0.9308,0.9189,0.9304,0.9313,"{'clf__n_estimators': 200, 'clf__max_depth': 3, 'clf__learning_rate': 0.1}",43.4
+XGBoost,SMOTE-ENN,0.937,0.0065,0.9136,0.927,0.9139,0.9264,0.9282,"{'clf__n_estimators': 200, 'clf__max_depth': 3, 'clf__learning_rate': 0.2}",59.6
+kNN,None,0.937,0.0042,0.9133,0.9254,0.9134,0.9277,0.9239,"{'clf__weights': 'distance', 'clf__n_neighbors': 9}",3.3
+kNN,SMOTE,0.9336,0.0052,0.9118,0.9247,0.912,0.9243,0.9257,"{'clf__weights': 'distance', 'clf__n_neighbors': 9}",7.2
+kNN,SMOTE-ENN,0.9333,0.0064,0.9081,0.9233,0.9084,0.9225,0.925,"{'clf__weights': 'distance', 'clf__n_neighbors': 9}",44.1

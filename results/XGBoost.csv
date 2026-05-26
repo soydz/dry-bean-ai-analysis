@@ -1,0 +1,4 @@
+model,balancing,cv_f1_macro_mean,cv_f1_macro_std,test_accuracy,test_f1_macro,test_f1_weighted,test_precision_macro,test_recall_macro,best_params,time_seconds
+XGBoost,None,0.9417,0.005,0.9188,0.9305,0.9188,0.9322,0.929,"{'clf__n_estimators': 200, 'clf__max_depth': 3, 'clf__learning_rate': 0.1}",30.4
+XGBoost,SMOTE,0.9409,0.005,0.9188,0.9308,0.9189,0.9304,0.9313,"{'clf__n_estimators': 200, 'clf__max_depth': 3, 'clf__learning_rate': 0.1}",43.4
+XGBoost,SMOTE-ENN,0.937,0.0065,0.9136,0.927,0.9139,0.9264,0.9282,"{'clf__n_estimators': 200, 'clf__max_depth': 3, 'clf__learning_rate': 0.2}",59.6

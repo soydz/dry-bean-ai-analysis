@@ -1,0 +1,4 @@
+model,balancing,cv_f1_macro_mean,cv_f1_macro_std,test_accuracy,test_f1_macro,test_f1_weighted,test_precision_macro,test_recall_macro,best_params,time_seconds
+MLP,None,0.9377,0.0043,0.9225,0.9331,0.9226,0.9334,0.9329,"{'clf__hidden_layer_sizes': (100,), 'clf__alpha': 0.01}",18.5
+MLP,SMOTE,0.9392,0.004,0.9228,0.9336,0.923,0.9325,0.9351,"{'clf__hidden_layer_sizes': (50,), 'clf__alpha': 0.001}",48.0
+MLP,SMOTE-ENN,0.934,0.0078,0.9158,0.9278,0.9161,0.9264,0.93,"{'clf__hidden_layer_sizes': (100,), 'clf__alpha': 0.01}",60.8

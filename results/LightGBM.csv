@@ -1,0 +1,4 @@
+model,balancing,cv_f1_macro_mean,cv_f1_macro_std,test_accuracy,test_f1_macro,test_f1_weighted,test_precision_macro,test_recall_macro,best_params,time_seconds
+LightGBM,None,0.9415,0.0029,0.9195,0.9308,0.9196,0.9316,0.9301,"{'clf__n_estimators': 200, 'clf__max_depth': 20, 'clf__learning_rate': 0.1}",62.7
+LightGBM,SMOTE,0.9402,0.0046,0.9206,0.9318,0.9208,0.9319,0.9317,"{'clf__n_estimators': 100, 'clf__max_depth': -1, 'clf__learning_rate': 0.05}",77.5
+LightGBM,SMOTE-ENN,0.9379,0.005,0.9177,0.9311,0.918,0.9307,0.932,"{'clf__n_estimators': 200, 'clf__max_depth': 20, 'clf__learning_rate': 0.1}",84.3

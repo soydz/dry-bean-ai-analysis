@@ -1,0 +1,4 @@
+model,balancing,cv_f1_macro_mean,cv_f1_macro_std,test_accuracy,test_f1_macro,test_f1_weighted,test_precision_macro,test_recall_macro,best_params,time_seconds
+RandomForest,None,0.9349,0.002,0.9184,0.9294,0.9183,0.9305,0.9285,{'clf__max_depth': 20},24.8
+RandomForest,SMOTE,0.9353,0.0004,0.9177,0.9293,0.9178,0.9296,0.929,{'clf__max_depth': 20},45.5
+RandomForest,SMOTE-ENN,0.9312,0.0016,0.9144,0.9277,0.9145,0.9276,0.9282,{'clf__max_depth': 20},41.1
