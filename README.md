@@ -8,7 +8,7 @@
 
 ## Video de sustentación
 
-[![Ver video del proyecto]](https://www.youtube.com/watch?v=JT7ZIwZISag)
+[![Ver video del proyecto]([https://img.youtube.com/vi/ID_DEL_VIDEO/maxresdefault.jpg](https://github.com/Josephroldanr/sistemas-operativos-labs/blob/17450123468e0c0a16161d83c3f5ff52592d050c/Sustentaci%C3%B3n%20del%20Proyecto%20Dry%20Bean%20ML.png))](https://www.youtube.com/watch?v=JT7ZIwZISag)
 
 ## Descripción
 
