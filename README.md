@@ -19,12 +19,11 @@ Sistema de clasificación automática de 7 variedades de frijol seco (Dermason, 
 ```
 .
 ├── README.md                       # Este archivo
-├── Clasificacion Automatica de Variedades de Frijoles Secos mediante ML       # Informe IEEE
-├── informe_final.tex               # Fuente LaTeX del informe
+├── informe final                   # Informe IEEE
 ├── requirements.txt                # Dependencias Python
 │── 1_eda.ipynb                     # Análisis exploratorio
 │── 2_modelos.ipynb                 # Entrenamiento y evaluación de 7 modelos
-│── 3_reduccion_dim.ipynb          # PCA y UMAP
+│── 3_reduccion_dim.ipynb           # PCA y UMAP
 ├── data/
 │   └── Dry_Bean_Dataset.xlsx       # Dataset original (UCI)
 ├── results/                        # Salidas generadas por los notebooks
