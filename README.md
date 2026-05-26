@@ -8,9 +8,7 @@
 
 ## Video de sustentación
 
-[![Ver video del proyecto](https://img.youtube.com/vi/ID_DEL_VIDEO/maxresdefault.jpg)](https://www.youtube.com/watch?v=JT7ZIwZISag)
-
-> Reemplaza `ID_DEL_VIDEO` por el identificador de tu video de YouTube. Si usas Google Drive, cambia la línea anterior por: `[Ver video del proyecto (10 min)](ENLACE_DE_DRIVE)`
+[![Ver video del proyecto]](https://www.youtube.com/watch?v=JT7ZIwZISag)
 
 ## Descripción
 
